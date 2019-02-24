@@ -140,7 +140,7 @@ public class BST<E extends Comparable<E>> {
     }
     
     
-    //二分搜索树的层序遍历
+    //二分搜索树的层序遍历,错误
     public void levelOrder(){
     	Queue<Node> q = new LinkedList<>();
     	q.add(root);
