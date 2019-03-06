@@ -29,7 +29,7 @@ public class P647 {
 //		 return result;
 		 
 		 //复杂度太高,通不过
-		 return null;
+		 return 1;
 		 
 		 
 		 
