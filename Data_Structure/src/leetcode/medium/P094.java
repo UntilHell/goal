@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class P94 {
+public class P094 {
 	private class TreeNode {
 		int val;
 		TreeNode left;

@@ -3,7 +3,7 @@ package leetcode.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Easy_771 {
+public class P771 {
 
 	 public static int numJewelsInStones(String j, String s) {
 		 int count = 0;
