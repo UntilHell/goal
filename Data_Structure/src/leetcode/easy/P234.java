@@ -1,7 +1,5 @@
 package leetcode.easy;
 
-public class P007 {
+public class P234 {
 
-	
-	
 }
