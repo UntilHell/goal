@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+import org.junit.Test;
+
 public class P077 {
 
 	private ArrayList<List<Integer>> res;
@@ -32,5 +34,10 @@ public class P077 {
 		return ;
 	}
 	
+	
+	@Test
+	public void test(){
+		combine(4,2);
+	}
 	
 }
