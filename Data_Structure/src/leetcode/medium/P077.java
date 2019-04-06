@@ -26,6 +26,7 @@ public class P077 {
 			return;
 		}
 		
+		
 		for(int i = start; i <= n ;i++){
 			c.addLast(i);
 			generateCombinations(n, k, i + 1, c);
