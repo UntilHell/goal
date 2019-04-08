@@ -17,7 +17,7 @@ public class P647 {
 //	}
 //	
 	
-	 public int countSubstrings(String s) {
+//	 public int countSubstrings(String s) {
 //		 int result = 0;
 //		 for(int i = 0; i< s.length(); i++){
 //			 for(int j = i+1; j<= s.length(); j++){
@@ -29,11 +29,11 @@ public class P647 {
 //		 return result;
 		 
 		 //复杂度太高,通不过
-		 return 1;
+//		 return 1;
 		 
 		 
 		 
-	 }
+//	 }
 	@Test
 	public void test(){
 //		System.out.println(is_palindromic("1455"));
@@ -53,4 +53,27 @@ public class P647 {
 //			}
 //		}
 	}
+	
+	int count = 1;
+	
+	public int countSubstrings(String s) {
+		if(s.length() == 0) return 0;
+		for(int i = 0; i < s.length()-1;i++){
+			checkPlindrome(s,i,i);
+			checkPlindrome(s,i,i+1);
+		}
+		return count;
+	}
+
+	private void checkPlindrome(String s, int i, int j) {
+		while(i >=0 && j < s.length() 
+				&& s.charAt(i) == s.charAt(j)){
+			count++;
+			j++;
+			i--;
+		}
+	}
+	
+	
+	
 }
