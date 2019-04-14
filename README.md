@@ -9,7 +9,7 @@
 | 2019.2.23 | 461. Hamming Distance                         | easy   | 整数怎么转换成二进制，不会                                   |                                                              |
 | 2019.2.23 | 350. Intersection of Two Arrays II            | easy   | 想到了用map,但是出现的频次不会设置。答案上如果存在频次减一，为0的时候remove |                                                              |
 | 2019.2.23 | 349. Intersection of Two Arrays               | easy   | 本题做了                                                     |                                                              |
-| 2019.2.23 | 338. Counting Bits                            | easy   | 看了答案。亦或的操作。然后统计1的个数                        | 说明  [1]()                                                  |
+| 2019.2.23 | 338. Counting Bits                            | easy   | 看了答案。亦或的操作。然后统计1的个数                        | 说明 1                                                       |
 |           |                                               |        |                                                              |                                                              |
 | 2019.2.24 | 617. Merge Two Binary Trees                   | easy   | 二叉树的题目没看见几个，不会。直接看答案。递归答案写了一遍，总觉得没用理解.循环的用栈实现的没有看 | 递归是真的看不懂                                             |
 | 2019.2.24 | 104. Maximum Depth of Binary Tree             | easy   | 不要想具体的实现过程，将改函数当成普通的函数；层序遍历不会   |                                                              |
@@ -43,7 +43,7 @@
 | 2019.3.10 | 20. Valid   Parentheses                       | easy   | 做过及几遍的题，还是做不出来；搞了好久做出来了               |                                                              |
 | 2019.3.10 | 141. Linked   List Cycle                      | easy   | 题目没看懂                                                   |                                                              |
 
-## 2019-4-26更新
+## 2019-3-26更新
 
 调整样式
 
@@ -65,7 +65,7 @@
 | 2019.3.19 | 78. Subsets                                       | medium | 不会                                                         |
 | 2019.3.19 | 287. Find the Duplicate Number                    | medium | 用排序做的但是题目做了限制，其他的方法没看懂                 |
 | 2019.3.19 | 337. House Robber III                             | medium | 不会                                                         |
-| 2019.3.19 |                                                   |        |                                                              |
+|           |                                                   |        |                                                              |
 | 2019.3.19 | 219. Contains Duplicate II                        | easy   | 看了思路还是不会，没有办法                                   |
 | 2019.3.19 | 102. Binary Tree Level Order Traversal            | medium | 不会                                                         |
 | 2019.3.19 | 48. Rotate Image                                  | medium | 不会                                                         |
@@ -93,6 +93,39 @@
 |           |                                                   |        |                                                              |
 | 2019.4.3  | 100. Same Tree                                    | easy   | 想出来一题，用的是递归，不知道能不能用dfs或bfs做             |
 | 2019.4.3  | 79.search word                                    | medium | 看的答案真的是复杂                                           |
+
+## 2019-4-14更新
+
+- 对回溯法有了新的认识：[remove理解为回到根节点](http://mp.weixin.qq.com/s?__biz=MzIzMDc5Mjg4Mw==&mid=2247484077&idx=1&sn=054efd39e611abbda16968087e8242bb&chksm=e8af4971dfd8c067915cb0bdea8ad7b1c263b3d5fddbaef57f54a810d70c0cfe0ef60874793f&mpshare=1&scene=23&srcid=0414F5ny5F9IhOYNygJt6Plo#rd)
+
+- 学习了python，很简洁的算法，写快速排序的简洁程度，令人发指；图解算法，书不错，没看完，bfs讲的很清晰，有向图的最少路径数；狄科斯特拉算法还在学习中，有向图加权图。
+
+| 时间      | 题目                                      | 难度   | 难点                                                         |
+| --------- | ----------------------------------------- | ------ | ------------------------------------------------------------ |
+| 2019.4.7  | 572. Subtree of Another   Tree            | easy   | 递归做不出来吗？做了一个错误的                               |
+| 2019.4.7  | 78. Subsets                               | medium | 不会                                                         |
+| 2019.4.7  | 22. Generate Parentheses                  | medium | 回溯                                                         |
+| 2019.4.7  | 647. Palindromic Substrings               | medium | 不会哈                                                       |
+|           |                                           |        |                                                              |
+| 2019.4.8  | 78. Subsets                               | medium | 看了答案，也看不懂                                           |
+|           |                                           |        |                                                              |
+| 2019.4.10 | 102. Binary Tree Level Order Traversal    | medium | 看的答案                                                     |
+|           | 279. Perfect Squares                      |        |                                                              |
+|           |                                           |        |                                                              |
+| 2019.4.11 | 279. Perfect Squares                      | medium | 看了答案也背不住，理解不了                                   |
+|           |                                           |        |                                                              |
+| 2019.4.13 | 654. Maximum Binary Tree                  | medium | 做出来来了，数组是复制的，空间复杂度很大                     |
+| 2019.4.13 | 49. Group Anagrams                        | medium | 慢的一笔                                                     |
+| 2019.4.13 | 914. X of a Kind in a Deck of Cards       | easy   | 统计出来，两两求公约数；我写的方法比较复杂，map.values()和map.getOrDefault(i,0)(i对应的存在，取；不存在0) |
+| 2019.4.13 | 647. Palindromic Substrings               | medium | 看的答案，巧妙的方法；odd和even                              |
+| 2019.4.13 | 22. Generate Parentheses                  | medium | 不会                                                         |
+| 2019.4.13 | 605. Can Place Flowers                    | easy   |                                                              |
+|           |                                           |        |                                                              |
+| 2019.4.14 | 485. Max Consecutive Ones                 | easy   | nice                                                         |
+| 2019.4.14 | 46. Permutations                          | medium | remove相当于是回到父节点                                     |
+| 2019.4.14 | 17. Letter Combinations of a Phone Number | medium | 暴力搜索的典范的，没有用到递归。搜到底，return之后，s的值就变回去了 |
+| 2019.4.14 | 77. Combinations                          | medium | 重复了；没有标记，就是for里面的东西写错了                    |
+| 2019.4.14 | 680. Valid   Palindrome II                | easy   | 看了答案；可以删除一个这么表示，牛逼。return isPalindrome(s,i+1,j) \|\| isPalindrome(s,i,j-1); |
 
 # 说明
 
