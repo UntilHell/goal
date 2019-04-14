@@ -39,8 +39,8 @@ public class P647 {
 //		System.out.println(is_palindromic("1455"));
 //		System.out.println(is_palindromic("145541"));
 //		System.out.println(is_palindromic("1441"));
-		System.out.println(countSubstrings("abc"));
-		System.out.println(countSubstrings("aaa"));
+//		System.out.println(countSubstrings("abc"));
+//		System.out.println(countSubstrings("aaa"));
 //		String str = "abc";
 //		System.out.println(str.substring(0, 0));
 //		System.out.println(str.substring(0, 1));
@@ -52,10 +52,12 @@ public class P647 {
 //				System.out.println(str.substring(i, j));
 //			}
 //		}
+		
+		System.out.println(countSubstrings("abc"));
 	}
 	
 	int count = 1;
-	
+	//https://leetcode.com/problems/palindromic-substrings/discuss/105688/Very-Simple-Java-Solution-with-Detail-Explanation
 	public int countSubstrings(String s) {
 		if(s.length() == 0) return 0;
 		for(int i = 0; i < s.length()-1;i++){
