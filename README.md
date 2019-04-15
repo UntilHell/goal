@@ -126,6 +126,11 @@
 | 2019.4.14 | 17. Letter Combinations of a Phone Number | medium | 暴力搜索的典范的，没有用到递归。搜到底，return之后，s的值就变回去了 |
 | 2019.4.14 | 77. Combinations                          | medium | 重复了；没有标记，就是for里面的东西写错了                    |
 | 2019.4.14 | 680. Valid   Palindrome II                | easy   | 看了答案；可以删除一个这么表示，牛逼。return isPalindrome(s,i+1,j) \|\| isPalindrome(s,i,j-1); |
+| 2019.4.15 | 113. Path Sum II                          | medium | 看了公众号的解答                                             |
+| 2019.4.15 | 5. Longest Palindromic Substring          | medium | 求所有的连续子数组，判断回文字符串；求连续子数组的算法写不出来，我真的是辣鸡|
+| 2019.4.15 | 744. Find Smallest Letter Greater Than Target| easy | 写了一个O(n)，本题可以用二分查找法,没有看懂二分查找                                     |
+| 2019.4.15 | 540. Single Element in a Sorted Array     | Medium | 不会                                                            |
+
 
 # 说明
 
