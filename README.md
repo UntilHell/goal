@@ -100,37 +100,39 @@
 
 - 学习了python，很简洁的算法，写快速排序的简洁程度，令人发指；图解算法，书不错，没看完，bfs讲的很清晰，有向图的最少路径数；狄科斯特拉算法还在学习中，有向图加权图。
 
-| 时间      | 题目                                      | 难度   | 难点                                                         |
-| --------- | ----------------------------------------- | ------ | ------------------------------------------------------------ |
-| 2019.4.7  | 572. Subtree of Another   Tree            | easy   | 递归做不出来吗？做了一个错误的                               |
-| 2019.4.7  | 78. Subsets                               | medium | 不会                                                         |
-| 2019.4.7  | 22. Generate Parentheses                  | medium | 回溯                                                         |
-| 2019.4.7  | 647. Palindromic Substrings               | medium | 不会哈                                                       |
-|           |                                           |        |                                                              |
-| 2019.4.8  | 78. Subsets                               | medium | 看了答案，也看不懂                                           |
-|           |                                           |        |                                                              |
-| 2019.4.10 | 102. Binary Tree Level Order Traversal    | medium | 看的答案                                                     |
-|           | 279. Perfect Squares                      |        |                                                              |
-|           |                                           |        |                                                              |
-| 2019.4.11 | 279. Perfect Squares                      | medium | 看了答案也背不住，理解不了                                   |
-|           |                                           |        |                                                              |
-| 2019.4.13 | 654. Maximum Binary Tree                  | medium | 做出来来了，数组是复制的，空间复杂度很大                     |
-| 2019.4.13 | 49. Group Anagrams                        | medium | 慢的一笔                                                     |
-| 2019.4.13 | 914. X of a Kind in a Deck of Cards       | easy   | 统计出来，两两求公约数；我写的方法比较复杂，map.values()和map.getOrDefault(i,0)(i对应的存在，取；不存在0) |
-| 2019.4.13 | 647. Palindromic Substrings               | medium | 看的答案，巧妙的方法；odd和even                              |
-| 2019.4.13 | 22. Generate Parentheses                  | medium | 不会                                                         |
-| 2019.4.13 | 605. Can Place Flowers                    | easy   |                                                              |
-|           |                                           |        |                                                              |
-| 2019.4.14 | 485. Max Consecutive Ones                 | easy   | nice                                                         |
-| 2019.4.14 | 46. Permutations                          | medium | remove相当于是回到父节点                                     |
-| 2019.4.14 | 17. Letter Combinations of a Phone Number | medium | 暴力搜索的典范的，没有用到递归。搜到底，return之后，s的值就变回去了 |
-| 2019.4.14 | 77. Combinations                          | medium | 重复了；没有标记，就是for里面的东西写错了                    |
-| 2019.4.14 | 680. Valid   Palindrome II                | easy   | 看了答案；可以删除一个这么表示，牛逼。return isPalindrome(s,i+1,j) \|\| isPalindrome(s,i,j-1); |
-| 2019.4.15 | 113. Path Sum II                          | medium | 看了公众号的解答                                             |
-| 2019.4.15 | 5. Longest Palindromic Substring          | medium | 求所有的连续子数组，判断回文字符串；求连续子数组的算法写不出来，我真的是辣鸡|
-| 2019.4.15 | 744. Find Smallest Letter Greater Than Target| easy | 写了一个O(n)，本题可以用二分查找法,没有看懂二分查找                                     |
-| 2019.4.15 | 540. Single Element in a Sorted Array     | Medium | 不会                                                            |
-
+| 时间      | 题目                                          | 难度   | 难点                                                         |
+| --------- | --------------------------------------------- | ------ | ------------------------------------------------------------ |
+| 2019.4.7  | 572. Subtree of Another   Tree                | easy   | 递归做不出来吗？做了一个错误的                               |
+| 2019.4.7  | 78. Subsets                                   | medium | 不会                                                         |
+| 2019.4.7  | 22. Generate Parentheses                      | medium | 回溯                                                         |
+| 2019.4.7  | 647. Palindromic Substrings                   | medium | 不会哈                                                       |
+|           |                                               |        |                                                              |
+| 2019.4.8  | 78. Subsets                                   | medium | 看了答案，也看不懂                                           |
+|           |                                               |        |                                                              |
+| 2019.4.10 | 102. Binary Tree Level Order Traversal        | medium | 看的答案                                                     |
+|           | 279. Perfect Squares                          |        |                                                              |
+|           |                                               |        |                                                              |
+| 2019.4.11 | 279. Perfect Squares                          | medium | 看了答案也背不住，理解不了                                   |
+|           |                                               |        |                                                              |
+| 2019.4.13 | 654. Maximum Binary Tree                      | medium | 做出来来了，数组是复制的，空间复杂度很大                     |
+| 2019.4.13 | 49. Group Anagrams                            | medium | 慢的一笔                                                     |
+| 2019.4.13 | 914. X of a Kind in a Deck of Cards           | easy   | 统计出来，两两求公约数；我写的方法比较复杂，map.values()和map.getOrDefault(i,0)(i对应的存在，取；不存在0) |
+| 2019.4.13 | 647. Palindromic Substrings                   | medium | 看的答案，巧妙的方法；odd和even                              |
+| 2019.4.13 | 22. Generate Parentheses                      | medium | 不会                                                         |
+| 2019.4.13 | 605. Can Place Flowers                        | easy   |                                                              |
+|           |                                               |        |                                                              |
+| 2019.4.14 | 485. Max Consecutive Ones                     | easy   | nice                                                         |
+| 2019.4.14 | 46. Permutations                              | medium | remove相当于是回到父节点                                     |
+| 2019.4.14 | 17. Letter Combinations of a Phone Number     | medium | 暴力搜索的典范的，没有用到递归。搜到底，return之后，s的值就变回去了 |
+| 2019.4.14 | 77. Combinations                              | medium | 重复了；没有标记，就是for里面的东西写错了                    |
+| 2019.4.14 | 680. Valid   Palindrome II                    | easy   | 看了答案；可以删除一个这么表示，牛逼。return isPalindrome(s,i+1,j) \|\| isPalindrome(s,i,j-1); |
+|           |                                               |        |                                                              |
+| 2019.4.15 | 113. Path Sum II                              | medium | 看了公众号的解答                                             |
+| 2019.4.15 | 5. Longest Palindromic Substring              | medium | 求所有的连续子数组，判断回文字符串；求连续子数组的算法写不出来，我真的是辣鸡，写了超时 |
+| 2019.4.15 | 744. Find Smallest Letter Greater Than Target | easy   | 写了一个O(n)，本题可以用二分查找法,没有看懂二分查找          |
+| 2019.4.15 | 540. Single Element in a Sorted Array         | Medium | 不会；这题可以求  ^ ,相同的值是，136一样                     |
+| 2019.4.15 | 9. Palindrome Number                          | easy   | 不变成字符串想不出来，答案懵逼，没看懂                       |
+| 2019.4.15 | 41.First Missing Positive                     | hard   | Your algorithm should run in *O*(*n*) time and uses constant extra space. 先把负数和0排除 |
 
 # 说明
 
