@@ -130,10 +130,16 @@
 | 2019.4.15 | 113. Path Sum II                              | medium | 看了公众号的解答                                             |
 | 2019.4.15 | 5. Longest Palindromic Substring              | medium | 求所有的连续子数组，判断回文字符串；求连续子数组的算法写不出来，我真的是辣鸡，写了超时 |
 | 2019.4.15 | 744. Find Smallest Letter Greater Than Target | easy   | 写了一个O(n)，本题可以用二分查找法,没有看懂二分查找          |
-| 2019.4.15 | 540. Single Element in a Sorted Array         | Medium | 不会；这题可以求  ^ ,相同的值是，136一样                     |
+| 2019.4.15 | 540. Single Element in a Sorted Array         | Medium | 不会；这题可以求  ^ ,相同的值是，136一样;很绕，看了答案，懂了6分样子 |
 | 2019.4.15 | 9. Palindrome Number                          | easy   | 不变成字符串想不出来，答案懵逼，没看懂                       |
 | 2019.4.15 | 41.First Missing Positive                     | hard   | Your algorithm should run in *O*(*n*) time and uses constant extra space. 先把负数和0排除 |
->>>>>>> 
+|           |                                               |        |                                                              |
+| 2019.4.16 | 98. Validate Binary Search Tree               | medium | 先使用中序遍历，然后看是否有序，复杂度和时间复杂度都很高，使用栈之后每取出一个，判断一次，答案背一下 |
+| 2019.4.16 | 114. Flatten Binary Tree to Linked List       | medium | 做不了 ,递归 ；用iteration做                                 |
+|           |                                               |        |                                                              |
+| 2019.4.17 | Search in Rotated Sorted Array                | medium | 看过旋转数组在剑指offer上，忘记了，做不出来                  |
+
+
 
 # 说明
 
