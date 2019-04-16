@@ -4,33 +4,23 @@ import leetcode.medium.P098.TreeNode;
 
 public class P098 {
 
-	public class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-		TreeNode(int x) { val = x; }
-	}
 	public boolean isValidBST(TreeNode root) {
-		
-		
+		//验证一棵树是否是二分搜索树
+		//中序遍历
 		if(root == null) return true;
-		
-		TreeNode left = root.left;
-		TreeNode right = root.right;
-		
-		if(left == null && right == null) return true;
-		if(left != null && right != null){
-			return isValidBST(left) && isValidBST(right);
+		inorder(root);
+		Integer value[] = new Integer[list.size()];
+		list.toArray(value);
+		for(int i = 0; i < value.length-1; i++){
+			if(value[i] > value[i+1]) return false;
 		}
-		if(left != null){
-			return left.val < root.val;
-		}
-		if(right != null){
-			return right.val < root.val;
-		}
-		
-		
-		
-		
+		return true;
+	}
+	private List<Integer> list = new ArrayList<>();
+	public void inorder(TreeNode root){
+		if(root == null) return;
+		inorder(root.left);
+		list.add(root.val);
+		inorder(root.right);
 	}
 }
