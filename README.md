@@ -138,9 +138,6 @@
 | 2019.4.16 | 114. Flatten Binary Tree to Linked List       | medium | 做不了 ,递归 ；用iteration做                                 |
 |           |                                               |        |                                                              |
 | 2019.4.17 | Search in Rotated Sorted Array                | medium | 看过旋转数组在剑指offer上，忘记了，做不出来                  |
-
-
-
 # 说明
 
 一些题目的扩展，底层的东西

@@ -25,8 +25,8 @@ public class P234 {
 	*/
 	
 	
-	public ListNode reverse(ListNode head){
-	
-		
-	}
+//	public ListNode reverse(ListNode head){
+//	
+//		
+//	}
 }

@@ -2,7 +2,9 @@ package leetcode.medium;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.junit.Test;
 
@@ -56,8 +58,8 @@ public class P005 {
 	
 	 public static void main(String[] args) {
 //		String s = new Solution().longestPalindrome("babad");
-		String s = new Solution().longestPalindrome("cbbd");
-		System.out.println(s);
+		//String s = new Solution().longestPalindrome("cbbd");
+		//System.out.println(s);
 	}
 	 
 	 private Set<String> generateSub(String s){
